@@ -1,10 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 <script>
-    let maxClick = 2;
-    let cnt = 2; // tip: https://svelte.dev/docs/svelte/$state
+    let maxClick = 'should be a state';
+    let cnt = 'should be a state'; // tip: https://svelte.dev/docs/svelte/$state
     
-
+  
     function onClick() {
       // tip: Since DOM (i.e., the webpage content) will automatically update based on values, [<p id="info">Remaining Number of Clicks: {cnt}</p>]
       // we only need to change the cnt number here. 
@@ -18,15 +16,15 @@
   />
   <div>
     You can click up to
-    <select 
-        bind:value={/*tip: bind the select action to change the maxClick value. https://svelte.dev/docs/svelte/bind#select-bind:value */} 
-        onchange={() => (/*tip: define what will happen after click. Maybe you want to update the remaining number of clikc when click a new maxClick value */)}>
-      {#each [2, 4, 6] as optionNum}
-        <option value={optionNum}>
-          {optionNum}
-        </option>
-      {/each}
-    </select>
+    <!-- <select 
+      //   bind:value={/*tip: bind the select action to change the maxClick value. https://svelte.dev/docs/svelte/bind#select-bind:value */} 
+      //   onchange={() => (/*tip: define what will happen after click. Maybe you want to update the remaining number of clikc when click a new maxClick value */)}>
+      // {#each [2, 4, 6] as optionNum}
+      //   <option value={optionNum}>
+      //     {optionNum}
+      //   </option>
+      // {/each}
+    </select> -->
     times
   </div>
   <button onclick={onClick}> Click Me </button>
