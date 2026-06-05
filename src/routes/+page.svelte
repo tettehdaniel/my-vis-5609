@@ -12,7 +12,7 @@
 <h1>Daniel Tetteh's VIS Site</h1>
 <img
   width="200px"
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Stonehenge.jpg/640px-Stonehenge.jpg"
+  src="https://upload.wikimedia.org/wikipedia/commons/9/94/Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg"
 />
 <div>
   You can click up to
